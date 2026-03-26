@@ -1,12 +1,11 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- ERROR 1: Root element is "NationalPark" instead of "NationalParks" -->
-<NationalPark xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-               xsi:noNamespaceSchemaLocation="https://rshah-92.github.io/cse445-assignment4/NationalParks.xsd">
+<?xml version="1.0" encoding="UTF-8"?>
+<NationalPark>
 
-  <!-- Park 1: Grand Canyon - ERROR 3: Phone element is missing -->
   <NationalPark Rating="4.9">
     <Name>Grand Canyon</Name>
-    <!-- ERROR 3: Phone element intentionally removed -->
+    <Phone>928-638-7496</Phone>
+    <Phone>888-297-2757</Phone>
+    <Phone>866-499-2574</Phone>
     <Address NearestAirport="FlagStaff">
       <Number>8</Number>
       <Street>S Entrance Road</Street>
@@ -16,56 +15,60 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 2: Yellowstone - ERROR 2: Required NearestAirport attribute is missing -->
   <NationalPark Rating="4.8">
     <Name>Yellowstone</Name>
     <Phone>307-344-7381</Phone>
     <Phone>307-344-2107</Phone>
-    <!-- ERROR 2: NearestAirport attribute intentionally removed -->
     <Address>
       <Number>1</Number>
-      <Street>Grand Loop Road</Street>
+      <Street>Yellowstone National Park Road</Street>
       <City>Yellowstone National Park</City>
       <State>WY</State>
       <Zip>82190</Zip>
     </Address>
   </NationalPark>
 
-  <!-- Park 3: Yosemite - ERROR 4: Address element has no closing tag -->
-  <NationalPark Rating="4.9">
+  <NationalPark Rating="4.7">
     <Name>Yosemite</Name>
-    <Phone>209-372-0200</Phone>
-    <Phone>209-372-4726</Phone>
-    <!-- ERROR 4: Missing closing tag for Address -->
-    <Address NearestAirport="Fresno Yosemite">
-      <Number>9</Number>
+    <Address NearestAirport="Fresno Yosemite International">
+      <Number>9035</Number>
       <Street>Village Drive</Street>
       <City>Yosemite Valley</City>
       <State>CA</State>
       <Zip>95389</Zip>
+    </Address>
   </NationalPark>
 
-  <!-- Park 4: Zion -->
-  <NationalPark>
+  <NationalPark Rating="4.8">
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
-    <Address NearestAirport="St. George Regional">
+    <Phone>435-772-0170</Phone>
+    <Address NearestAirport="St. George Regional Airport">
       <Number>1</Number>
-      <Street>Zion Park Blvd</Street>
+      <Street>Zion Park Boulevard</Street>
       <City>Springdale</City>
       <State>UT</State>
       <Zip>84767</Zip>
     </Address>
   </NationalPark>
 
-  <!-- Park 5: Rocky Mountain - ERROR 5: Two Name elements provided -->
-  <NationalPark Rating="4.7">
+  <NationalPark>
+    <Name>Olympic</Name>
+    <Name>Olympic National Park</Name>
+    <Phone>360-565-3130</Phone>
+    <Address NearestAirport="Seattle-Tacoma International">
+      <Number>600</Number>
+      <Street>E Park Avenue</Street>
+      <City>Port Angeles</City>
+      <State>WA</State>
+      <Zip>98362</Zip>
+    </Address>
+  </NationalPark>
+
+  <NationalPark Rating="4.6">
     <Name>Rocky Mountain</Name>
-    <!-- ERROR 5: Second Name element - not allowed by schema -->
-    <Name>Rocky Mountain National Park</Name>
     <Phone>970-586-1206</Phone>
-    <Phone>970-586-1242</Phone>
-    <Address NearestAirport="Denver">
+    <Address NearestAirport="Denver International Airport">
       <Number>1000</Number>
       <Street>US Highway 36</Street>
       <City>Estes Park</City>
@@ -74,24 +77,11 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 6: Olympic -->
   <NationalPark>
-    <Name>Olympic</Name>
-    <Phone>360-565-3130</Phone>
-    <Address NearestAirport="Seattle-Tacoma">
-      <Number>3002</Number>
-      <Street>Mount Angeles Road</Street>
-      <City>Port Angeles</City>
-      <State>WA</State>
-      <Zip>98362</Zip>
-    </Address>
-  </NationalPark>
-
-  <!-- Park 7: Acadia -->
-  <NationalPark Rating="4.8">
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
-    <Address NearestAirport="Bangor">
+    <Phone>207-288-8800</Phone>
+    <Address NearestAirport="Bangor International Airport">
       <Number>25</Number>
       <Street>Visitor Center Road</Street>
       <City>Bar Harbor</City>
@@ -100,12 +90,10 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 8: Great Smoky Mountains -->
-  <NationalPark>
+  <NationalPark Rating="4.7">
     <Name>Great Smoky Mountains</Name>
     <Phone>865-436-1200</Phone>
-    <Phone>865-436-1294</Phone>
-    <Address NearestAirport="McGhee Tyson">
+    <Address NearestAirport="McGhee Tyson Airport">
       <Number>107</Number>
       <Street>Park Headquarters Road</Street>
       <City>Gatlinburg</City>
@@ -114,24 +102,10 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 9: Glacier -->
-  <NationalPark Rating="4.9">
-    <Name>Glacier</Name>
-    <Phone>406-888-7800</Phone>
-    <Address NearestAirport="Glacier Park">
-      <Number>64</Number>
-      <Street>Grinnell Drive</Street>
-      <City>West Glacier</City>
-      <State>MT</State>
-      <Zip>59936</Zip>
-    </Address>
-  </NationalPark>
-
-  <!-- Park 10: Joshua Tree -->
-  <NationalPark>
+  <NationalPark Rating="4.5">
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
-    <Address NearestAirport="Palm Springs">
+    <Address NearestAirport="Palm Springs International Airport">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
@@ -140,17 +114,28 @@
     </Address>
   </NationalPark>
 
-  <!-- Park 11: Shenandoah -->
+  <NationalPark>
+    <Name>Glacier</Name>
+    <Phone>406-888-7800</Phone>
+    <Phone>406-888-7801</Phone>
+    <Address NearestAirport="Glacier Park International Airport">
+      <Number>64</Number>
+      <Street>Grinnell Drive</Street>
+      <City>West Glacier</City>
+      <State>MT</State>
+      <Zip>59936</Zip>
+    </Address>
+  </NationalPark>
+
   <NationalPark Rating="4.6">
-    <Name>Shenandoah</Name>
-    <Phone>540-999-3500</Phone>
-    <Phone>540-999-3489</Phone>
-    <Address NearestAirport="Dulles">
-      <Number>3655</Number>
-      <Street>US Highway 211 East</Street>
-      <City>Luray</City>
-      <State>VA</State>
-      <Zip>22835</Zip>
+    <Name>Bryce Canyon</Name>
+    <Phone>435-834-5322</Phone>
+    <Address NearestAirport="Cedar City Regional Airport">
+      <Number>1</Number>
+      <Street>Bryce Canyon National Park Road</Street>
+      <City>Bryce Canyon City</City>
+      <State>UT</State>
+      <Zip>84764</Zip>
     </Address>
   </NationalPark>
 
