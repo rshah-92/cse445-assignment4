@@ -54,7 +54,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
     <Address NearestAirport="Seattle-Tacoma International">
@@ -78,7 +78,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Phone>207-288-8800</Phone>
@@ -115,7 +115,7 @@
     </Address>
   </NationalPark>
 
-  <NationalPark Rating="4.8">
+  <NationalPark>
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
     <Phone>406-888-7801</Phone>
