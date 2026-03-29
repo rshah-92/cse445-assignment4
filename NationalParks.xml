@@ -23,7 +23,7 @@
     <Address NearestAirport="Jackson Hole Airport">
       <Number>1</Number>
       <Street>Yellowstone National Park Road</Street>
-      <City>Yellowstone National Park</City>
+      <City>Yellowstone Natl Park</City>
       <State>WY</State>
       <Zip>82190</Zip>
     </Address>
@@ -32,7 +32,7 @@
   <NationalPark Rating="4.7">
     <Name>Yosemite</Name>
     <Phone>209-372-0200</Phone>
-    <Address NearestAirport="Fresno Yosemite International">
+    <Address NearestAirport="Fresno Yosemite Intl">
       <Number>9035</Number>
       <Street>Village Drive</Street>
       <City>Yosemite Valley</City>
@@ -45,7 +45,7 @@
     <Name>Zion</Name>
     <Phone>435-772-3256</Phone>
     <Phone>435-772-0170</Phone>
-    <Address NearestAirport="St. George Regional Airport">
+    <Address NearestAirport="St. George Regional">
       <Number>1</Number>
       <Street>Zion Park Boulevard</Street>
       <City>Springdale</City>
@@ -57,7 +57,7 @@
   <NationalPark>
     <Name>Olympic</Name>
     <Phone>360-565-3130</Phone>
-    <Address NearestAirport="Seattle-Tacoma International">
+    <Address NearestAirport="Seattle-Tacoma Intl">
       <Number>600</Number>
       <Street>E Park Avenue</Street>
       <City>Port Angeles</City>
@@ -69,7 +69,7 @@
   <NationalPark Rating="4.6">
     <Name>Rocky Mountain</Name>
     <Phone>970-586-1206</Phone>
-    <Address NearestAirport="Denver International Airport">
+    <Address NearestAirport="Denver Intl Airport">
       <Number>1000</Number>
       <Street>US Highway 36</Street>
       <City>Estes Park</City>
@@ -82,7 +82,7 @@
     <Name>Acadia</Name>
     <Phone>207-288-3338</Phone>
     <Phone>207-288-8800</Phone>
-    <Address NearestAirport="Bangor International Airport">
+    <Address NearestAirport="Bangor Intl Airport">
       <Number>25</Number>
       <Street>Visitor Center Road</Street>
       <City>Bar Harbor</City>
@@ -92,7 +92,7 @@
   </NationalPark>
 
   <NationalPark Rating="4.7">
-    <Name>Great Smoky Mountains</Name>
+    <Name>Great Smoky Mtns</Name>
     <Phone>865-436-1200</Phone>
     <Address NearestAirport="McGhee Tyson Airport">
       <Number>107</Number>
@@ -106,7 +106,7 @@
   <NationalPark Rating="4.5">
     <Name>Joshua Tree</Name>
     <Phone>760-367-5500</Phone>
-    <Address NearestAirport="Palm Springs International Airport">
+    <Address NearestAirport="Palm Springs Intl">
       <Number>74485</Number>
       <Street>National Park Drive</Street>
       <City>Twentynine Palms</City>
@@ -119,7 +119,7 @@
     <Name>Glacier</Name>
     <Phone>406-888-7800</Phone>
     <Phone>406-888-7801</Phone>
-    <Address NearestAirport="Glacier Park International Airport">
+    <Address NearestAirport="Glacier Park Intl">
       <Number>64</Number>
       <Street>Grinnell Drive</Street>
       <City>West Glacier</City>
@@ -131,9 +131,9 @@
   <NationalPark Rating="4.6">
     <Name>Bryce Canyon</Name>
     <Phone>435-834-5322</Phone>
-    <Address NearestAirport="Cedar City Regional Airport">
+    <Address NearestAirport="Cedar City Regional">
       <Number>1</Number>
-      <Street>Bryce Canyon National Park Road</Street>
+      <Street>Bryce Canyon NP Road</Street>
       <City>Bryce Canyon City</City>
       <State>UT</State>
       <Zip>84764</Zip>
